@@ -97,7 +97,6 @@ def ford_leasing():
     ws = wb['ochrona_srodowiska']
     wb1 = load_workbook("calculation.xlsx")
     ws1 = wb1['Sheet']
-
     cell = ws['B13']
     ws1['B9'] = cell.value
     ws1['C9'] = float(0.8333)
